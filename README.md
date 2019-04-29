@@ -4,52 +4,52 @@
 
 ```
 sudo apt-get install vim 	# install vim
-ls 							# list computer files
-ls -l 						# use a long listing format
-mkdir rtl					# make a directory named "example"
-cd rtl						# move inside of "example" dir
-cd ..						# go back to up folder
-pwd							# current working directory
+ls 				# list computer files
+ls -l 				# use a long listing format
+mkdir rtl			# make a directory named "example"
+cd rtl				# move inside of "example" dir
+cd ..				# go back to up folder
+pwd				# current working directory
 touch rtl/counter.v 		# Create a counter.v empty file inside rtl folder
-cp rtl/counter.v rtl/sum.v  # Create a copy of counter.v named sum.v
+cp rtl/counter.v rtl/sum.v 	# Create a copy of counter.v named sum.v
 cp rtl/sum.v rtl/ddf.v    	# Create a copy of sum.v named dff.v
-mv rtl/dff.v rtl/reg.v      # Move dff.v to reg.v (change name)
+mv rtl/dff.v rtl/reg.v      	# Move dff.v to reg.v (change name)
 find ./ -iname '*.v'		# Find all files with .v extension
-rm ./rtl/ddf.v 				# Remove ddf.v file
-rm -fr ./rtl/*				# Remove all files inside ./rtl folder
-rm -fr ./rtl				# Remove .rtl/ folder
-sudo 						# Add before any command to execute as administrator.
-sudo su 					# Login as administrator
-sudo username				# Login as username
-csh test.csh				# Execute test.csh
+rm ./rtl/ddf.v 			# Remove ddf.v file
+rm -fr ./rtl/*			# Remove all files inside ./rtl folder
+rm -fr ./rtl			# Remove .rtl/ folder
+sudo 				# Add before any command to execute as administrator.
+sudo su 			# Login as administrator
+sudo username			# Login as username
+csh test.csh			# Execute test.csh
 wget http://www.asic-world.com/code/hdl_models/up_counter.v 	#Download a file from web
-vim up_counter.v 			# Load up_counter.v with VIM Editor
+vim up_counter.v 		# Load up_counter.v with VIM Editor
 ```
 ## Basic VIM commands
 ```
-i 			#Enter to INSERT Mode where you can type like any normal editor
-ESC			#Go back to Command Mode
+i 				#Enter to INSERT Mode where you can type like any normal editor
+ESC				#Go back to Command Mode
 
 #In command mode
 :w 				# Write file
 :q 				# Safe exit. If exist any change won't exit.
 :q!				# Force exit
-:wq!  			# Write and exit
+:wq!  				# Write and exit
 dd 				# Delete line
 D 				# Delete everything after the cursor
 gg 				# Go to the top of the file
 G 				# Go to the bottom of the file
-/counter    	# Search in the file for "counter"
+/counter    			# Search in the file for "counter"
 n 				# Go to the next word found.
-:%s/reset/rst/e # Replace "reset" word with "rst"
-CTRL + v 		# Enter to visual mode
+:%s/reset/rst/e 		# Replace "reset" word with "rst"
+CTRL + v 			# Enter to visual mode
 
 #In visual mode
 
 # Write the same text in multiple lines
 				# Move down with the cursor
-Shift + i 		# Enter to insert mode
-ESC				#
+Shift + i 			# Enter to insert mode
+ESC				# End command
 
 ```
 ## Ubuntu Packages
@@ -100,7 +100,7 @@ git config --global user.name "Your Name Goes Here"
 git config --global user.email "you@yourpublicemail.example.com
 ```
 
-## Sofwares
+## Softwares
 
 
 
