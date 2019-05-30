@@ -1,0 +1,13 @@
+read_verilog ./rtl/map9v3.v 
+ 
+read_liberty -lib osu035_stdcells.lib
+
+synth -top map9v3 
+
+dfflibmap -liberty osu035_stdcells.lib
+abc -D 10000 -constr example.constr -liberty osu035_stdcells.lib
+opt_clean
+
+stat -liberty osu035_stdcells.lib
+
+write_verilog synth.v

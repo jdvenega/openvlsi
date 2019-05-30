@@ -1,2 +1,8 @@
-iverilog -o my_design  ./rtl/counter_tb.v ./rtl/counter.v
+#!/bin/csh
+set src = " \
+./rtl/counter.v \
+./rtl/counter_tb.v"
+
+
+iverilog -o my_design $src -v
 vvp my_design
