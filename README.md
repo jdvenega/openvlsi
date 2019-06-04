@@ -89,6 +89,7 @@ libgsl-dev \
 tcl-dev \
 tk-dev \
 tcsh \
+sudo apt-get install python3-tk \
 libncurses-dev \
 libcairo2-dev
 ```
@@ -144,7 +145,7 @@ git clone https://github.com/rubund/graywolf.git
 cd graywolf
 cmake .
 make
-make install
+sudo make install
 cd ..
 rm -fr graywolf
 ```
@@ -170,7 +171,7 @@ tar zxvf netgen-1.5.118.tgz
 cd netgen-1.5.118
 ./configure
 make
-make install
+sudo make install
 cd ..
 rm -fr  netgen-1.5.118
 ```
@@ -182,7 +183,7 @@ tar zxvf magic-8.2.110.tgz
 cd magic-8.2.110
 ./configure
 make
-make install
+sudo make install
 cd ..
 rm -fr magic-8.2.110
 ```
@@ -212,6 +213,23 @@ make
 sudo make install
 cd ..
 rm -fr qflow-1.3.13
+```
+
+### OpenRAM 
+```
+sudo apt install python-numpy
+sudo apt install python-scipy
+sudo apt install ngspice
+sudo apt-get install build-essential linux-headers-`uname -r`
+sudo apt-get install libtool automake autoconf
+sudo apt-get install flex bison texinfo
+sudo apt-get install libx11-dev libxaw7-dev
+
+git clone https://github.com/VLSIDA/OpenRAM.git
+
+echo 'export OPENRAM_HOME="$HOME/openRAM/compiler"' >> ~/.bash_profile
+echo 'export OPENRAM_TECH="$HOME/openRAM/technology"' >> ~/.bash_profile
+echo 'export PYTHONPATH="$PYTHONPATH:$OPENRAM_HOME' >> ~/.bash_profile
 ```
 
 ### Check installed programs
