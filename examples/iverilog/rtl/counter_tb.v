@@ -23,6 +23,6 @@ module counter_tb;
 
   initial
      $monitor("At time %t, value = %h (%0d)",
-              $time, value, value);
-endmodule // test
+              $time, value, value, c1.out);
+endmodule // test:
 

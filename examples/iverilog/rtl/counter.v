@@ -9,12 +9,8 @@ module counter(out, clk, reset);
   wire 	       clk, reset;
 
   always @(posedge clk)
-    out <= out + 1;
-
-  always @reset
-    if (reset)
-      assign out = 0;
-    else
-      deassign out;
-
+		if(reset)
+				out <= 0;
+		else
+				out <= out + 1;
 endmodule // counter
