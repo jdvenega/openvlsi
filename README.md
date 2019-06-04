@@ -217,8 +217,8 @@ rm -fr qflow-1.3.13
 
 ### OpenRAM 
 ```
-sudo apt install python-numpy
-sudo apt install python-scipy
+sudo apt install python3-numpy
+sudo apt install python3-scipy
 sudo apt install ngspice
 sudo apt-get install build-essential linux-headers-`uname -r`
 sudo apt-get install libtool automake autoconf
