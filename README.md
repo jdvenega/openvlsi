@@ -24,6 +24,11 @@ sudo username			# Login as username
 csh test.csh			# Execute test.csh
 wget http://www.asic-world.com/code/hdl_models/up_counter.v 	#Download a file from web
 vim up_counter.v 		# Load up_counter.v with VIM Editor
+
+### Advanced UNIX commands
+ln -s /path/to/dir /path/to/symlink  # Symbolic link to a folder. Useful to create source folder for Qflow
+
+
 ```
 ## Basic VIM commands
 ```
