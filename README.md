@@ -249,3 +249,11 @@ git clone https://github.com/jdvenega/openvlsi.git
 
 ```
 
+# Magic
+
+ /usr/local/share/qflow/tech/osu050/
+tech load scmosi
+tech load /usr/local/share/qflow/tech/osu050/SCN3ME_SUBM.30.tech 
+
+gds read /usr/local/share/qflow/tech/osu050/osu05_stdcells.gds2 
+writeall force module

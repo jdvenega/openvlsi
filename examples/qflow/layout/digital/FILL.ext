@@ -1,0 +1,8 @@
+timestamp 1556508158
+version 8.2
+tech scmos
+style TSMC0.35um(tsmc35)from:t11c
+scale 1000 1 5
+resistclasses 3700 2800 1018000 1018000 1 6000 6000 80 70 80 40
+node "vdd" 2439 3228.48 -32 192 nw 512 128 0 0 21888 648 0 0 0 0 0 0 0 0 1152 144 0 0 0 0 0 0
+substrate "gnd" 0 0 -8 -8 poc 0 0 512 128 0 0 0 0 0 0 0 0 0 0 1152 144 0 0 0 0 0 0
