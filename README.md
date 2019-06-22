@@ -256,7 +256,13 @@ cd project/qflow/layout
 cp ~/openvlsi/examples/magic/run_drc_fir2n.tcl ./
 
 magic -dnull -noconsole ./run_drc_fir2n.tcl 
+```
+
+I recommend Klayout to take picture of the GDS file
+```
+cd project/qflow/layout
 
 klayout fir2n.gds
 ```
 
+![img](klayout.png)
