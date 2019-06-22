@@ -249,13 +249,14 @@ git clone https://github.com/jdvenega/openvlsi.git
 
 ```
 
-# Magic
+# Write GDS -  Magic
 
 ```
-tech load scmos
-tech load /usr/local/share/qflow/tech/osu050/SCN3ME_SUBM.30.tech 
+cd project/qflow/layout
+cp ~/openvlsi/examples/magic/run_drc_fir2n.tcl ./
 
-gds read /usr/local/share/qflow/tech/osu050/osu05_stdcells.gds2 
-writeall force module
+magic -dnull -noconsole ./run_drc_fir2n.tcl 
+
+klayout fir2n.gds
 ```
 
