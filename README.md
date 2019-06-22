@@ -265,4 +265,6 @@ cd project/qflow/layout
 klayout fir2n.gds
 ```
 
-![img](klayout.png)
+<p align="center">
+  <img src="img/klayout.png" width="350" title="Klayout example">
+</p>
