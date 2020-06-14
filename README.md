@@ -208,6 +208,18 @@ cd ../../
 rm -fr OpenTimer
 
 ```
+###  OpenSTA
+```
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+cd OpenSTA
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+rm -fr OpenSTA
+```
+
 ### Qflow
 ```
 wget http://opencircuitdesign.com/qflow/archive/qflow-1.3.13.tgz
