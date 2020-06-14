@@ -217,6 +217,7 @@ cd build
 cmake ..
 make
 sudo make install
+cd ..
 rm -fr OpenSTA
 ```
 
