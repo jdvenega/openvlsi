@@ -183,14 +183,14 @@ rm -fr  netgen-1.5.118
 ###  Magic
 
 ```
-wget http://opencircuitdesign.com/magic/archive/magic-8.2.110.tgz
-tar zxvf magic-8.2.110.tgz
-cd magic-8.2.110
+git clone git://opencircuitdesign.com/magic
+git checkout magic-8.3
+cd magic
 ./configure
 make
 sudo make install
 cd ..
-rm -fr magic-8.2.110
+rm -fr magic
 ```
 
 
