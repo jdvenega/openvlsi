@@ -232,6 +232,16 @@ sudo make install
 cd ..
 rm -fr qflow-1.3.13
 ```
+### Open-PDKs
+```
+git clone https://github.com/RTimothyEdwards/open_pdks
+./configure --enable-sky130-pdk --with-sky130-local-path=../
+cd sky130 
+make veryclean 
+make && 
+make install-local 
+make clean
+```
 
 ### OpenRAM 
 ```
