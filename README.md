@@ -94,7 +94,7 @@ libgsl-dev \
 tcl-dev \
 tk-dev \
 tcsh \
-sudo apt-get install python3-tk \
+python3-tk \
 libncurses-dev \
 libcairo2-dev
 ```
